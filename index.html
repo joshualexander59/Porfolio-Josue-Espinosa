@@ -1,0 +1,293 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Josué Espinosa | Tecnólogo en Desarrollo de Software</title>
+  <!-- Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Outfit:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  <!-- Icons -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+  <!-- Styles -->
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <!-- Header / Navigation -->
+  <header class="navbar">
+    <div class="nav-container">
+      <a href="#" class="logo">
+        <span class="bracket">&lt;</span>Josué<span class="logo-accent">.Dev</span><span class="bracket">/&gt;</span>
+      </a>
+      <nav class="nav-menu">
+        <a href="#home" class="nav-link active">Inicio</a>
+        <a href="#about" class="nav-link">Sobre Mí</a>
+        <a href="#skills" class="nav-link">Habilidades</a>
+        <a href="#projects" class="nav-link">Proyectos</a>
+        <a href="#experience" class="nav-link">Experiencia</a>
+        <a href="#contact" class="nav-link btn-contact-nav">Contacto</a>
+      </nav>
+      <button class="menu-toggle" id="menu-toggle">
+        <i class="fa-solid fa-bars"></i>
+      </button>
+    </div>
+  </header>
+
+  <!-- Hero Section -->
+  <section id="home" class="hero-section">
+    <div class="hero-bg-glow"></div>
+    <div class="container hero-container">
+      <div class="hero-content">
+        <span class="hero-greeting">¡Hola! Mi nombre es</span>
+        <h1 class="hero-title">Josué Espinosa</h1>
+        <h2 class="hero-subtitle">Tecnólogo en Desarrollo de Software</h2>
+        <p class="hero-description">
+          Especializado en el desarrollo de aplicaciones backend robustas y soluciones fullstack modernas. Apasionado por la arquitectura limpia, la automatización de procesos y el diseño de APIs REST altamente eficientes.
+        </p>
+        <div class="hero-actions">
+          <a href="#projects" class="btn btn-primary">Ver Proyectos <i class="fa-solid fa-arrow-right"></i></a>
+          <a href="#contact" class="btn btn-secondary">Contactar</a>
+        </div>
+        <div class="hero-socials">
+          <a href="https://www.linkedin.com/in/josue-espinosa-967b1b191" target="_blank" title="LinkedIn"><i class="fa-brands fa-linkedin"></i></a>
+          <a href="https://github.com/joshualexander59" target="_blank" title="GitHub"><i class="fa-brands fa-github"></i></a>
+          <a href="mailto:josueespinosa694@gmail.com" title="Email"><i class="fa-solid fa-envelope"></i></a>
+        </div>
+      </div>
+      <div class="hero-visual">
+        <div class="avatar-glow-ring">
+          <div class="avatar-inner">
+            <i class="fa-solid fa-code"></i>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- About Me Section -->
+  <section id="about" class="section">
+    <div class="container">
+      <h2 class="section-title">Sobre Mí</h2>
+      <div class="about-grid">
+        <div class="about-text-card card">
+          <p>
+            Soy graduado en <strong>Tecnología Superior en Desarrollo de Software</strong> por el Instituto Superior Tecnológico Japón. Mi enfoque principal está en el desarrollo backend, donde disfruto resolviendo problemas lógicos complejos, optimizando la persistencia de datos en bases de datos relacionales y creando microservicios escalables.
+          </p>
+          <p>
+            Tengo experiencia integrando APIs modernas y creando herramientas de automatización que optimizan el tiempo operativo. Además de programar, mi experiencia en infraestructura y centros de datos me ha brindado un entendimiento profundo sobre la estabilidad y confiabilidad de sistemas empresariales críticos.
+          </p>
+        </div>
+        <div class="about-facts-grid">
+          <div class="fact-card card">
+            <i class="fa-solid fa-graduation-cap"></i>
+            <h3>Formación</h3>
+            <p>Tecnólogo en Desarrollo de Software</p>
+          </div>
+          <div class="fact-card card">
+            <i class="fa-solid fa-earth-americas"></i>
+            <h3>Modalidad</h3>
+            <p>Remoto / Híbrido / Presencial</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Skills Section -->
+  <section id="skills" class="section bg-alt">
+    <div class="container">
+      <h2 class="section-title">Habilidades Técnicas</h2>
+      <div class="skills-grid">
+        <!-- Backend -->
+        <div class="skills-category card">
+          <div class="category-header">
+            <i class="fa-solid fa-server"></i>
+            <h3>Backend Development</h3>
+          </div>
+          <div class="skills-list">
+            <div class="skill-tag"><i class="fa-brands fa-java"></i> Java</div>
+            <div class="skill-tag">Spring Boot</div>
+            <div class="skill-tag"><i class="fa-brands fa-node-js"></i> Node.js (Express)</div>
+            <div class="skill-tag">APIs RESTful</div>
+            <div class="skill-tag">POO (Programación Orientada a Objetos)</div>
+          </div>
+        </div>
+        <!-- Frontend -->
+        <div class="skills-category card">
+          <div class="category-header">
+            <i class="fa-solid fa-laptop-code"></i>
+            <h3>Frontend Development</h3>
+          </div>
+          <div class="skills-list">
+            <div class="skill-tag"><i class="fa-brands fa-js"></i> JavaScript (ES6+)</div>
+            <div class="skill-tag"><i class="fa-brands fa-html5"></i> HTML5</div>
+            <div class="skill-tag"><i class="fa-brands fa-css3-alt"></i> CSS3</div>
+            <div class="skill-tag"><i class="fa-brands fa-react"></i> React (Básico)</div>
+          </div>
+        </div>
+        <!-- Databases & Infrastructure -->
+        <div class="skills-category card">
+          <div class="category-header">
+            <i class="fa-solid fa-database"></i>
+            <h3>Bases de Datos y Tools</h3>
+          </div>
+          <div class="skills-list">
+            <div class="skill-tag">PostgreSQL</div>
+            <div class="skill-tag">MySQL</div>
+            <div class="skill-tag"><i class="fa-brands fa-git-alt"></i> Git / GitHub</div>
+            <div class="skill-tag">Playwright (Automatización)</div>
+            <div class="skill-tag">Monitoreo de Servidores</div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Projects Section -->
+  <section id="projects" class="section">
+    <div class="container">
+      <h2 class="section-title">Proyectos Destacados</h2>
+      <div class="projects-grid">
+        
+        <!-- Project 1 -->
+        <div class="project-card card">
+          <div class="project-visual">
+            <i class="fa-solid fa-cubes"></i>
+          </div>
+          <div class="project-info">
+            <span class="project-tag">Java / Spring Boot</span>
+            <h3>API REST de Gestión e Inventario</h3>
+            <p>Servicio backend completo para control y administración de almacenes. Utiliza JPA/Hibernate para base de datos PostgreSQL, manejo seguro de transacciones y arquitectura MVC limpia.</p>
+            <div class="project-links">
+              <a href="https://github.com/joshualexander59/sistema-inventario" target="_blank" class="project-link"><i class="fa-brands fa-github"></i> Código</a>
+            </div>
+          </div>
+        </div>
+
+        <!-- Project 2 -->
+        <div class="project-card card">
+          <div class="project-visual">
+            <i class="fa-solid fa-robot"></i>
+          </div>
+          <div class="project-info">
+            <span class="project-tag">Node.js / Playwright / Gemini</span>
+            <h3>Remote Job Application Agent</h3>
+            <p>Agente inteligente de automatización de postulaciones en Lever/Greenhouse. Emplea Playwright para rellenado de formularios y la API de Gemini para responder preguntas personalizadas.</p>
+            <div class="project-links">
+              <a href="https://github.com/joshualexander59/remote-job-bot" target="_blank" class="project-link"><i class="fa-brands fa-github"></i> Código</a>
+            </div>
+          </div>
+        </div>
+
+        <!-- Project 3 -->
+        <div class="project-card card">
+          <div class="project-visual">
+            <i class="fa-solid fa-window-restore"></i>
+          </div>
+          <div class="project-info">
+            <span class="project-tag">JavaScript / Express / MySQL</span>
+            <h3>Aplicación Web de Gestión Empresarial</h3>
+            <p>Software fullstack interactivo para control de flujos de trabajo internos de empresas. Frontend interactivo y base de datos relacional MySQL optimizada.</p>
+            <div class="project-links">
+              <a href="https://github.com/joshualexander59/gestion-empresarial" target="_blank" class="project-link"><i class="fa-brands fa-github"></i> Código</a>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- Experience & Education Section -->
+  <section id="experience" class="section bg-alt">
+    <div class="container">
+      <h2 class="section-title">Trayectoria</h2>
+      
+      <div class="timeline">
+        <!-- Item 1 -->
+        <div class="timeline-item">
+          <div class="timeline-dot"></div>
+          <div class="timeline-date">Oct 2024 – Mar 2025</div>
+          <div class="timeline-content card">
+            <h3>Técnico de Mantenimiento de Infraestructura</h3>
+            <span class="company">Powertron</span>
+            <p>Encargado del monitoreo de alta disponibilidad de servidores en centros de datos, diagnóstico y soporte de infraestructura de redes críticas.</p>
+          </div>
+        </div>
+
+        <!-- Item 2 -->
+        <div class="timeline-item">
+          <div class="timeline-dot"></div>
+          <div class="timeline-date">Graduado en 2025</div>
+          <div class="timeline-content card">
+            <h3>Tecnología Superior en Desarrollo de Software</h3>
+            <span class="company">Instituto Superior Tecnológico Japón</span>
+            <p>Formación técnica especializada en programación orientada a objetos, bases de datos relacionales, metodologías ágiles y desarrollo web integral.</p>
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </section>
+
+  <!-- Contact Section -->
+  <section id="contact" class="section">
+    <div class="container">
+      <h2 class="section-title">Contacto</h2>
+      <div class="contact-wrapper">
+        <div class="contact-info">
+          <h3>¿Tienes un proyecto en mente o buscas un desarrollador backend?</h3>
+          <p>Estoy listo para unirme a un equipo y aportar con soluciones eficientes. No dudes en contactarme a través de mis canales:</p>
+          
+          <div class="contact-details">
+            <div class="contact-item">
+              <i class="fa-solid fa-location-dot"></i>
+              <span>Quito, Ecuador</span>
+            </div>
+            <div class="contact-item">
+              <i class="fa-solid fa-envelope"></i>
+              <a href="mailto:josueespinosa694@gmail.com">josueespinosa694@gmail.com</a>
+            </div>
+            <div class="contact-item">
+              <i class="fa-solid fa-phone"></i>
+              <span>+593 97 868 1336</span>
+            </div>
+          </div>
+        </div>
+
+        <div class="contact-form-container card">
+          <form id="contact-form">
+            <div class="form-group">
+              <label for="name">Nombre</label>
+              <input type="text" id="name" placeholder="Tu nombre" required>
+            </div>
+            <div class="form-group">
+              <label for="email">Correo Electrónico</label>
+              <input type="email" id="email" placeholder="tu@correo.com" required>
+            </div>
+            <div class="form-group">
+              <label for="message">Mensaje</label>
+              <textarea id="message" rows="5" placeholder="Escribe tu mensaje aquí..." required></textarea>
+            </div>
+            <button type="submit" class="btn btn-primary w-full">Enviar Mensaje <i class="fa-solid fa-paper-plane"></i></button>
+          </form>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="footer">
+    <div class="container footer-container">
+      <p>&copy; 2026 Josué Espinosa. Hecho con pasión en Ecuador.</p>
+      <div class="footer-links">
+        <a href="https://github.com/joshualexander59" target="_blank"><i class="fa-brands fa-github"></i></a>
+        <a href="https://www.linkedin.com/in/josue-espinosa-967b1b191" target="_blank"><i class="fa-brands fa-linkedin"></i></a>
+      </div>
+    </div>
+  </footer>
+
+  <script src="app.js"></script>
+</body>
+</html>
